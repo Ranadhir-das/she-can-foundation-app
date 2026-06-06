@@ -1,16 +1,43 @@
-# React + Vite
+# 💜 She Can Foundation - Web Portal & Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-stack web application designed to empower women globally through skills bootcamps, mentorship hubs, and community networking. This platform features a responsive public landing page, a secure dual-role authentication system (Member/Admin), and a protected administrative dashboard for managing community inquiries and registered accounts.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Frontend:**
+* React.js (via Vite)
+* Tailwind CSS v4 (for responsive UI and dark/light modes)
+* Framer Motion (for fluid animations and page transitions)
+* Lucide React (for modern iconography)
 
-## React Compiler
+**Backend:**
+* Node.js & Express.js
+* MongoDB Atlas (Cloud Database) & Mongoose
+* JSON Web Tokens (JWT) for secure authentication
+* Bcrypt.js for password hashing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+* **Creative UI/UX:** Fully responsive design with smooth scroll animations, glassmorphism navbars, and interactive hover states.
+* **Native Dark Mode:** Seamless toggle between carefully crafted high-contrast Light and Dark themes.
+* **Dual-Role Authentication:** Secure login/signup portal that differentiates between regular `user` members and `admin` staff.
+* **Member Portal:** A personalized dashboard for verified community members.
+* **Admin Command Center:** A protected route where administrators can view/delete incoming contact messages and manage registered user accounts.
+* **RESTful API:** A robust Node.js backend handling form submissions, user creation, and database queries.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Local Development Setup
+
+Follow these steps to run the application on your local machine.
+
+### 1. Prerequisites
+Make sure you have the following installed:
+* [Node.js](https://nodejs.org/) (v18 or higher recommended)
+* A [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account and cluster
+
+### 2. Clone the Repository
+*(If you are downloading this from GitHub)*
+```bash
+git clone [https://github.com/Ranadhir-das/she-can-foundation-app.git](https://github.com/YOUR_USERNAME/she-can-foundation-app.git)
+cd she-can-foundation-app
